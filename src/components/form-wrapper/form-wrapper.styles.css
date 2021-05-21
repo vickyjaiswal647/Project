@@ -1,0 +1,46 @@
+.form-wrapper {
+    top: 10px;
+    background-color:#fff;
+    position: relative;
+    min-height: 600px;
+    
+    margin-left: 340px;
+    
+    padding: 20px;
+    width: 600px;
+    
+        
+}
+
+@media ( max-width: 765px) {
+    .form-wrapper {
+        top: 10px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.manage-fields-wrapper {
+    justify-content:left;
+}
+
+.form-section--fake-label {
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.help-block {
+    font-size: 13px;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.2;
+    text-align: left;
+}

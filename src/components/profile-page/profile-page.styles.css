@@ -1,0 +1,93 @@
+.profile-page {
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 20px;
+}
+
+@media ( max-width: 765px) {
+    .profile-page {
+        margin-top: 580.4px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+.side-navbar {
+    margin-left: 12%;
+    
+}
+
+.profile-page-header {
+    border: 1px solid gray;
+    height: 10vh;
+    border-right: none;
+    border-top: none;
+    text-align: center;
+    width: 82%;
+    margin-left: 18%;
+    margin-right: 12%;
+}
+
+@media ( max-width: 765px) {
+    .profile-page-header {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        border-left: none;
+    }
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    margin-top: -10px;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.profile-page-container {
+    height: 400px;
+    padding: 5px 10px 10px 10px;
+    position: relative;
+    margin-left: 25px;
+    margin-right: -10px;
+    
+}
+
+.profile-page-footer {
+    border: 1px solid gray;
+    border-right: none;
+    border-bottom: none;
+    height: 10vh;
+    
+    position:inherit;
+    margin-top: 125.8vh;
+    left: 0;
+    bottom: 0;
+    width: 82%;
+    margin-left: 18%;
+    margin-right: 12%;
+    color: white;
+    text-align: center;
+}
+
+@media ( max-width: 765px) {
+    .profile-page-footer {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        border-left: none;
+    }
+}
+
+.form-actions {
+    margin-top: 10px;
+}
