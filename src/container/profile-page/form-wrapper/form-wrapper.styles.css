@@ -1,0 +1,40 @@
+.form-wrapper {
+    top: 10px;
+    background-color:#fff;
+    position: relative;
+    min-height: 600px;
+    
+    margin-left: 245px;
+    
+    padding: 20px;
+    width: 800px;
+    border: 1px solid black;
+    
+    
+        
+}
+
+@media ( max-width: 765px) {
+    .form-wrapper {
+        top: 10px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.form-field-container {
+    margin-top: 30px;
+}
+.manage-fields-wrapper {
+    justify-content:left;
+}
+
+
+/* .help-block {
+    font-size: 13px;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.2;
+    text-align: left;
+} */
